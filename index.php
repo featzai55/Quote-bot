@@ -9,6 +9,7 @@ error_reporting(0);
 set_time_limit(0);
 
 flush();
+$API_KEY = '1493291816:AAEQbKNROj-USDAHUWUS8Es26n0VQB43_80';
 ##------------------------------##
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){

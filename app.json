@@ -13,7 +13,7 @@
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
   },
-{
+
   "env": {
     "BOT_TOKEN": {
       "description": "Get it from @Botfather",

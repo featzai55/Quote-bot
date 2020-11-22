@@ -1,5 +1,5 @@
 <?php
-'require_one' = ".env";
+require_one = ".env";
 /*
 BY:- @BenchamXD
 

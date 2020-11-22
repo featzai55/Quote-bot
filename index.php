@@ -33,8 +33,6 @@ function bot($method,$datas=[]){
 	]);
 	}
 //===============HEROKU TEST=================//
-$heroku config:set MY_VAR=value;
-$token = getenv('MY_VAR');
 //==============BENCHAM======================//
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;

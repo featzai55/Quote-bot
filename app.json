@@ -1,1 +1,9 @@
-
+{
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Get it from @Botfather",
+      "generator": "secret"
+    },
+    
+  }
+}

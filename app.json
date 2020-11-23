@@ -1,0 +1,30 @@
+{
+    "name": "Files Bot",
+    "description": "this app does one little thing, and does it well.",
+    "keywords": [
+        "productivity",
+        "share",
+        "files"
+    ],
+    "website": "#TODO",
+    "repository": "https://github.com/Benchamxd/Quote-bot",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },
+        "START_MESSAGE": {
+            "description": "your Telegram Bot UserName, from @BotFather( without @)"
+        },
+        "HELP_MENU": {
+            "description": "Telegram Channel ID. Example: -10012374356"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}

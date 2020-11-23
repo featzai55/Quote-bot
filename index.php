@@ -71,7 +71,7 @@ bot('sendmessage', [
 ***TAGS:-*** #$tag1 #$tag2 #$tag3",
 'parse_mode'=>"MarkDown",
                 ]);
-}if($text == '/get')
+}if($text == '/help')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
                 'text' =>"$HELP_MENU"

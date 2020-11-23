@@ -45,10 +45,11 @@ $text = $message->text;
 $fromid = $update->callback_query->from->id;
 $username = $update->message->from->username;
 $chatid = $update->callback_query->message->chat->id;
+$START_MESSAGE = $_ENV["BOT_TOKEN"] = "USE /GET";
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"***USE /get***",
+                'text' =>"***$START_MESSAGE***",
 'parse_mode'=>"MarkDown",
 ]);
 if($text == '/get'){

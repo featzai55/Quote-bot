@@ -15,6 +15,12 @@ AFTER DEPLOY DO SET WEBHOOK BY ``api.telegram.org/bot<your bot token>/setwebhook
 
 ``HELP_MENU : YOU CAN ADD IT ON VARS IF YOU NEED A /help COMMAND``
 
+# Commands
+
+``/start - To start the bot``
+
+``/get - To Get the quotes``
+
 # HELP ME
 FOR ANY TYPE OF HELP OR ISSUES. YOU CAN CONTACT ME [HERE](https://telegram.me/induschats)
 

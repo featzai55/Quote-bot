@@ -45,6 +45,7 @@ $fromid = $update->callback_query->from->id;
 $username = $update->message->from->username;
 $chatid = $update->callback_query->message->chat->id;
 $START_MESSAGE = $_ENV["START_MESSAGE"];
+$HELP_MENU = $_ENV["HELP_MENU"];
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
@@ -70,4 +71,8 @@ bot('sendmessage', [
 ***TAGS:-*** #$tag1 #$tag2 #$tag3",
 'parse_mode'=>"MarkDown",
                 ]);
-}
+}if($text == '/get')
+bot('sendmessage', [
+                'chat_id' =>$chat_id,
+                'text' =>"$HELP_MENU"
+]);

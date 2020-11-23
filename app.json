@@ -6,7 +6,7 @@
         "Bot",
         "Reading"
     ],
-    "website": "#TODO",
+    "logo": "justforwardme2413072.png",
     "repository": "https://github.com/Benchamxd/Quote-bot",
     "success_url": "/",
     "env": {

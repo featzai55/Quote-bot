@@ -1,10 +1,10 @@
 {
-    "name": "Files Bot",
-    "description": "this app does one little thing, and does it well.",
+    "name": "Quote Bot",
+    "description": "A simple bot to fetch Quotes from GoodReads.",
     "keywords": [
-        "productivity",
-        "share",
-        "files"
+        "Quotes",
+        "Bot",
+        "Reading"
     ],
     "website": "#TODO",
     "repository": "https://github.com/Benchamxd/Quote-bot",
@@ -14,10 +14,7 @@
             "description": "your Telegram Bot Token, from @BotFather"
         },
         "START_MESSAGE": {
-            "description": "your Telegram Bot UserName, from @BotFather( without @)"
-        },
-        "HELP_MENU": {
-            "description": "Telegram Channel ID. Example: -10012374356"
+            "description": "A start message for your bot."
         }
     },
     "formation": {

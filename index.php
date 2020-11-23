@@ -57,9 +57,7 @@ if($text == '/get'){
 $data = json_decode(file_get_contents("https://quotes.cwprojects.live/random"),true);
 $text = $data['text'];
 $author = $data['author'];
-$tag1 = $data['tags'][0];
-$tag2 = $data['tags'][1];
-$tag3 = $data['tags'][2];
+$tag = "#" . implode(" #", $data['tags']);
 
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
@@ -68,7 +66,7 @@ bot('sendmessage', [
 
 ***AUTHOR:-*** `$author`
 
-***TAGS:-*** #$tag1 #$tag2 #$tag3",
+***TAGS:-*** $tag",
 'parse_mode'=>"MarkDown",
                 ]);
 }if($text == '/help')

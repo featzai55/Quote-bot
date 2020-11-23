@@ -49,7 +49,7 @@ $HELP_MENU = $_ENV["HELP_MENU"];
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"***$START_MESSAGE :D***",
+                'text' =>"***$START_MESSAGE***",
 'parse_mode'=>"MarkDown",
 ]);
 if($text == '/get'){

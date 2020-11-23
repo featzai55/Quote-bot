@@ -45,7 +45,7 @@ $text = $message->text;
 $fromid = $update->callback_query->from->id;
 $username = $update->message->from->username;
 $chatid = $update->callback_query->message->chat->id;
-$START_MESSAGE = $_ENV["BOT_TOKEN"] = "USE /GET";
+$START_MESSAGE = $_ENV["START_MESSAGE"] = "USE /GET";
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,

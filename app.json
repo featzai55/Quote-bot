@@ -6,8 +6,7 @@
         "Bot",
         "Reading"
     ],
-    "logo": "IMG_20201123_070405_917.jpg
-",
+    "logo": "logo.png",
     "repository": "https://github.com/Benchamxd/Quote-bot",
     "success_url": "/",
     "env": {

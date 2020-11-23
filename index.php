@@ -33,7 +33,6 @@ function bot($method,$datas=[]){
 	'parse_mode'=>$mode
 	]);
 	}
-//===============HEROKU TEST=================//
 //==============BENCHAM======================//
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;
@@ -45,7 +44,8 @@ $text = $message->text;
 $fromid = $update->callback_query->from->id;
 $username = $update->message->from->username;
 $chatid = $update->callback_query->message->chat->id;
-$START_MESSAGE = $_ENV["START_MESSAGE"] = "USE /GET";
+$START_MESSAGE = $_ENV["START_MESSAGE"] = <<<EOM USE /get
+EOM;
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,

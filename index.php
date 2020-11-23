@@ -44,12 +44,11 @@ $text = $message->text;
 $fromid = $update->callback_query->from->id;
 $username = $update->message->from->username;
 $chatid = $update->callback_query->message->chat->id;
-$START_MESSAGE = $_ENV["START_MESSAGE"] = <<<EOM USE /get
-EOM;
+$START_MESSAGE = $_ENV["START_MESSAGE"];
 if($text == '/start')
 bot('sendmessage', [
                 'chat_id' =>$chat_id,
-                'text' =>"***$START_MESSAGE***",
+                'text' =>"***$START_MESSAGE :D***",
 'parse_mode'=>"MarkDown",
 ]);
 if($text == '/get'){
